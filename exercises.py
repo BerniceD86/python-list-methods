@@ -12,7 +12,7 @@ print('testing')
 
 networking = ['packet', 'LAN', 'WAN', 'port', 'firewall', 'VPN']
 insert (3, SSH)
-
+print (networking)
 #remove(element) removes a single element from the list
 #3. The cyber security analyst entered the wrong IP address in the list below. Please remove the non-float integer from the ip addy list and print your results.
 
