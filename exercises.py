@@ -11,20 +11,23 @@ print('testing')
 #2. You just created a networking study list and forget to add in 'SSH'. Please add that into the 3rd position in the networking list and print your results.
 
 networking = ['packet', 'LAN', 'WAN', 'port', 'firewall', 'VPN']
-insert [[3], SSH]
+networking.insert( 3, 'SSH')
 print (networking)
 
 #remove(element) removes a single element from the list
 #3. The cyber security analyst entered the wrong IP address in the list below. Please remove the non-float integer from the ip addy list and print your results.
 
 ip_addy = [255.224, 192.168,  1331904083.25, 5102018, 10.255, 172.31]
-remove(5102018)
+ip_addy.remove(5102018)
 print(ip_addy)
 
 #pop(index) removes the element at the given index position
 #4. The cyber traits list below is a list of traits that fit a career in cyber security. Everything is accurate, except for 'lazy'. Please remove 'lazy' from the list and print your results.
 
 cyber_traits = ['detailed oriented', 'methodically', 'lazy', 'persistent', 'curious', 'instinctive']
+cyber_traits.pop(2)
+print(cyber_traits)
+
 
 #extend(list) adds elements from another list 
 #5. Combine the new co list with the sec co list and print your results.
