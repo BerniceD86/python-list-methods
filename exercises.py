@@ -11,7 +11,7 @@ print('testing')
 #2. You just created a networking study list and forget to add in 'SSH'. Please add that into the 3rd position in the networking list and print your results.
 
 networking = ['packet', 'LAN', 'WAN', 'port', 'firewall', 'VPN']
-insert ([3], SSH)
+insert [[3], SSH]
 print (networking)
 
 #remove(element) removes a single element from the list
