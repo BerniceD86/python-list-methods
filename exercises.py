@@ -41,39 +41,47 @@ print('list' , sec_co)
 #6. There were some headline grabbing cyber attacks in 2017. In the cyber attacks list below, find the index position of 'WannaCry' and print your result.
 
 cyber_attacks = ['Equifax Data Breach', 'Uber Data Breach', 'Yahoo!','WannaCry', 'Deep Root Analytics']
-index = cyber_attacks.index 'WannaCry'
-print
+index = cyber_attacks[3]
+print(index)
+
 #count(element) counts how many times an element is in a list
 #7. In the dns list below, find the number of ocurrence for 98.105 and print your results.
 
 dns_list = [98.105, 98.1115, 99.105, 98.111, 98.105, 98.106, 98.501]
+count= dns_list.count(98.105)
+print(count)
+
 
 #reverse() reverses the elements of a given list
 #8. Decipher Mr. Robot's quote using the reverse method and print his message.
 
 mr_robot = ['bigger', 'something', 'represents', 'it', 'mistake', 'a', 'just', 'never', 'is', 'bug', 'a']
-
+mr_robot.reverse()
+print(mr_robot)
 #sort () sorts elements of a given list in a specific order (ascending or descending)
 #9 Sort the following list of SSH Ids in ascending order
 
 ssh_list = [1331903959.94555, 1331901011.84795, 1331903492.37203, 1331901032.03789, 1331903508.24007, 1331903476.8]
-
+ssh_list.sort()
+print(ssh_list)
 #print the list in descending order
-
+ssh_list.sort(reverse=True)
+print(ssh_list)
 #max() returns the largest element in the list
 #10 Find the largest integer in the network list below:
 
 network_list = [39104, 38694, 38702, 38787, 39860]
+print('Maximum is:', max(network_list))
 
 #min() returns the smallest element in the list
-#11 Find the smallest integet in the network list below:
+#11 Find the smallest integer in the network list below:
 
 network_list = [39104, 38694, 38702, 38787, 39860]
-
+print('Minimum is:', min(network_list))
 #sum() calculates the sum of the all the elements in the list
 #12 Find the sum of the following occurence list below:
 
 occurences = [3, 2.5, 9, 7, 21, 6, 8]
-
+print('Sum is:', sum(occurences))
 
 
